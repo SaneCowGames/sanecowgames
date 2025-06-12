@@ -13,7 +13,10 @@ header {
 body{
     background-color: #1C1C1C;
     color: #DADDD8;
-    margin: 0
+    margin: 0;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .navbar{
     position: -webkit-sticky;
@@ -26,7 +29,7 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #235e5c;
+    background-color: #33235e;
 }
 
 
@@ -43,17 +46,33 @@ body{
 }
 
 .navbar li a:hover {
-    background-color: #41a19e;
+    background-color: #463081;
+
   }
   
 .divider {
     text-align: center;
     padding-bottom: 3%;
+    font-family: "Expletus Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
 }
 
 .column {
     float: left;
     padding: 10px;
+    padding-left: 7%;
+    font-size: 1.3em;
+}
+
+.column h1{
+    font-family: "Expletus Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 2.5em;
 }
 
 .column img {
@@ -66,7 +85,7 @@ body{
 }
 
 .column.large{
-    width: 64%;
+    width: 46%;
 }
 
 .contentrow::after{

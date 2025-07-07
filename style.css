@@ -97,3 +97,17 @@ body{
   .contentrow{
     padding-bottom: 5%;
   }
+
+  .contactlinks{
+    padding-left: 1%;
+  }
+
+  .contactlinks a{
+    color: #7785cc;
+    text-decoration: none;
+  }
+
+  .contactlinks a:hover{
+    color: #DADDD8;
+    text-decoration: underline;
+  }
